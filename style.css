@@ -18,3 +18,9 @@ li a:hover {
     background-color: #555;
     color: white;
 }
+
+body {
+    background-color: black;
+    font-family: Helvetica, Calibri, serif;
+    color: #f3f2f5;
+}
