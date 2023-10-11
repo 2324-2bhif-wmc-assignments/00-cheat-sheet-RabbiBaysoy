@@ -16,10 +16,22 @@ h3 {
     font-style: oblique;
 }
 
+.a {
+    background-color: #f3f2f5;
+}
+
 .main {
     text-decoration-line: underline;
     font-style: italic;
     text-align: center;
+}
+
+p {
+    font-family: Calibri, Arial, sans-serif;
+}
+
+li {
+    font-family: "Calibri Light", Helvetica, serif;
 }
 
 

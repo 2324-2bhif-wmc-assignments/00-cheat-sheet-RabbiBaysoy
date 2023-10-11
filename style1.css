@@ -13,11 +13,20 @@ h1 {
 h3 {
     color: darkseagreen;
     font-style: oblique;
+    background-color: #f3f2f5;
 }
 
 .main {
     text-decoration-line: underline;
     font-style: italic;
     text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, serif;
+}
+
+li {
+    font-family: "Calisto MT", Cambria, serif;
 }
 
