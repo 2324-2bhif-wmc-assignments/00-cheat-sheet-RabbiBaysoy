@@ -1,4 +1,4 @@
-ul {
+.button {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -9,22 +9,78 @@ ul {
 li a {
     display: block;
     color: #000;
-    padding: 8px 16px;
     text-decoration: none;
 }
 
-/* Change the link color on hover */
 li a:hover {
     background-color: #555;
     color: white;
 }
 
-body {
+.startpage {
     background-color: black;
     font-family: Helvetica, Calibri, serif;
     color: #f3f2f5;
 }
 
-p {
-    font-family: Calibri, Helvetica, sans-serif;
+.cheatsheet {
+    background: lightcyan;
 }
+
+.css {
+    background: lightgray;
+}
+
+.a {
+    background-color: #f3f2f5;
+    text-align: center;
+    color: blue;
+    text-decoration-line: underline;
+}
+
+.mainCss {
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+    text-decoration-line: underline;
+    font-style: italic;
+    text-align: center;
+}
+
+.css3headers{
+    color: seagreen;
+    font-family: Helvetica, Calibri, serif;
+}
+
+.cssparagraphs {
+    font-family: "Calibri Light", Calibri, serif;
+    color: seagreen;
+}
+
+.cssLi\`s {
+    font-family: Candara, Calibri, serif;
+    color: darkgreen;
+}
+
+.mainHtml {
+    font-family: Helvetica, Calibri, serif;
+    color: darkblue;
+    text-decoration-line: underline;
+    font-style: oblique;
+    text-align: center;
+}
+
+.html3headers {
+    color: blue;
+    font-family: Arial, Helvetica, serif;
+}
+
+.htmlparagraphs {
+    font-family: "Calibri Light", Calibri, serif;
+    color: darkslateblue;
+}
+
+.htmlLi\`s {
+    font-family: Candara, Calibri, serif;
+    color: darkturquoise;
+}
+
