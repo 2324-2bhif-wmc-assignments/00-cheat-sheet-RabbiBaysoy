@@ -1,4 +1,4 @@
-.button {
+#button {
     list-style-type: none;
     margin-left: 600px;
     padding: 0;
@@ -19,17 +19,17 @@ li a:hover {
     color: white;
 }
 
-.startpage {
+#startpage {
     background-color: black;
     font-family: Helvetica, Calibri, serif;
     color: #f3f2f5;
 }
 
-.cheatsheet {
+#cheatsheet {
     background: lightcyan;
 }
 
-.css {
+#css {
     background: lightgray;
 }
 
@@ -40,7 +40,7 @@ li a:hover {
     text-decoration-line: underline;
 }
 
-.mainCss {
+#mainCss {
     font-family: Arial, Helvetica, sans-serif;
     color: green;
     text-decoration-line: underline;
@@ -63,7 +63,7 @@ li a:hover {
     color: darkgreen;
 }
 
-.mainHtml {
+#mainHtml {
     font-family: Helvetica, Calibri, serif;
     color: darkblue;
     text-decoration-line: underline;
@@ -84,5 +84,20 @@ li a:hover {
 .htmlLi\`s {
     font-family: Candara, Calibri, serif;
     color: darkturquoise;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+dt, dd {
+    color: turquoise;
+}
+
+
+td, th {
+    border-color: turquoise;
+    color: turquoise;
 }
 

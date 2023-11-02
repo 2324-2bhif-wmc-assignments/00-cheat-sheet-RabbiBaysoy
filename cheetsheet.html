@@ -5,10 +5,10 @@
     <title>Assignment 1</title>
     <link type="text/css" rel="stylesheet" href="./style.css">
 </head>
-<body class="cheatsheet">
+<body id="cheatsheet">
     <div>
         <hr>
-        <h1 class="mainHtml">Basics of HTML</h1>
+        <h1 id="mainHtml">Basics of HTML</h1>
         <hr>
         <article>
             <h3 class="a">World Wide Web</h3>
@@ -171,8 +171,78 @@
                             <li class="htmlLi`s">one or more tr elements</li>
                         </ul>
                     </li class="htmlLi`s">
-                    <li>an optional tfoot element</li>
+                    <li class="htmlLi`s">an optional tfoot element</li>
                 </ol>
+            </section>
+            <section>
+                <h3 class="html3headers">Different kinds of lists</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Unordered list</th>
+                            <th>Ordered list</th>
+                            <th>Description list</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>&lt;ul&gt;(start tag for unordered list) <br> &lt;/ul&gt;(end tag for unordered list)<br> &lt;li&gt;(start tag for list item)<br> &lt;/li&gt;(end tag for list item)</td>
+                            <td>&lt;ul&gt;(start tag for ordered list)<br> &lt;/ul&gt;(end tag for ordered list)<br> &lt;li&gt;(start tag for list item)<br> &lt;/li&gt;(end tag for list item)</td></td>
+                            <td>&lt;dl&gt;(start tag for description list) <br>&lt;/dl&gt;(end tag for description list) <br>&lt;dt&gt;(start tag for description term) <br>&lt;/dt&gt;(end tag for description term)
+                                <br>&lt;dd&gt;(start tag for description data) <br>&lt;/dd&gt;(end tag for description data)   
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                Examples for unordered lists:<br>
+                                <ul>
+                                    <li class="htmlLi`s">Coffee</li>
+                                    <li class="htmlLi`s">Tea</li>
+                                    <li class="htmlLi`s">Milk</li>
+                                </ul>
+                                <ul>
+                                    <li class="htmlLi`s">Coffee</li>
+                                    <li class="htmlLi`s">Tea
+                                      <ul>
+                                        <li class="htmlLi`s">Black tea</li>
+                                        <li class="htmlLi`s">Green tea</li>
+                                      </ul>
+                                    </li>
+                                    <li class="htmlLi`s">Milk</li>
+                                </ul>
+                            </td>
+                            <td>
+                                Examples for ordered lists:<br>
+                                <ol>
+                                    <li class="htmlLi`s">Coffee</li>
+                                    <li class="htmlLi`s">Tea</li>
+                                    <li class="htmlLi`s">Milk</li>
+                                </ol>
+                                <ol>
+                                    <li class="htmlLi`s">Coffee</li>
+                                    <li class="htmlLi`s">Tea
+                                      <ul>
+                                        <li class="htmlLi`s">Black tea</li>
+                                        <li class="htmlLi`s">Green tea</li>
+                                      </ul>
+                                    </li>
+                                    <li class="htmlLi`s">Milk</li>
+                                </ol>
+                            </td>
+                            <td>
+                                Example for descr
+                                <dl>
+                                    <dt>Coffee</dt>
+                                    <dd>Black hot drink</dd>
+                                    <dt>Milk</dt>
+                                    <dd>White cold drink</dd>
+                                  </dl>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
             </section>
             
         </article>
