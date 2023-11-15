@@ -1,7 +1,7 @@
 
 #startpage {
     background-color: lightblue;
-    font-family: Helvetica, Calibri, serif;
+    font-family: Calibri Light, Arial, sans-serif;
     color: #f3f2f5;
 }
 
@@ -18,7 +18,7 @@
     background-color: #f3f2f5;
     text-align: center;
     color: blue;
-    text-decoration-line: underline;
+    border-radius: 12px;
 }
 
 #mainCss {
@@ -99,7 +99,7 @@ td, th {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1rem;
     text-decoration: none;
   }
   
