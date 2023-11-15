@@ -11,7 +11,7 @@
 
 
 #css {
-    background: lightgray;
+    background-color: whitesmoke;
 }
 
 .a {
@@ -28,25 +28,25 @@
 
 #mainCss {
     font-family: Arial, Helvetica, sans-serif;
-    color: green;
+    color: turquoise;
     text-decoration-line: underline;
     font-style: italic;
     text-align: center;
 }
 
 .cssarticle h3{
-    color: seagreen;
+    color: lightseagreen;
     font-family: Helvetica, Calibri, serif;
 }
 
 .cssarticle p {
     font-family: Arial, Calibri, serif;
-    color: seagreen;
+    color: turquoise;
 }
 
 .cssarticle li{
     font-family: Candara, Calibri, serif;
-    color: darkgreen;
+    color: turquoise;
 }
 
 #mainHtml {
@@ -89,8 +89,9 @@ td, th {
 
 .navbar {
     list-style-type: none;
+    padding-left: 0;
     margin: 0;
-    padding: 0;
+    top: 0;
     overflow: hidden;
     background-color: turquoise;
   }
