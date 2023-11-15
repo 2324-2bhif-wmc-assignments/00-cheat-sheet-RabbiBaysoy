@@ -15,6 +15,11 @@
 }
 
 .a {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: #f3f2f5;
     text-align: center;
     color: blue;
@@ -29,17 +34,17 @@
     text-align: center;
 }
 
-.css3headers{
+.cssarticle h3{
     color: seagreen;
     font-family: Helvetica, Calibri, serif;
 }
 
-.cssparagraphs {
-    font-family: "Calibri Light", Calibri, serif;
+.cssarticle p {
+    font-family: Arial, Calibri, serif;
     color: seagreen;
 }
 
-.cssLi\`s {
+.cssarticle li{
     font-family: Candara, Calibri, serif;
     color: darkgreen;
 }
@@ -52,17 +57,17 @@
     text-align: center;
 }
 
-.html3headers {
+.htmldiv h3{
     color: blue;
     font-family: Arial, Helvetica, serif;
 }
 
-.htmlparagraphs {
-    font-family: "Calibri Light", Helvetica, serif;
+.htmldiv p{
+    font-family: Arial, Helvetica, serif;
     color: darkslateblue;
 }
 
-.htmlLi\`s {
+.htmldiv li{
     font-family: Candara, Calibri, serif;
     color: darkturquoise;
 }
@@ -106,5 +111,3 @@ td, th {
   li a:hover {
     background-color: lightblue;
   }
-
-
