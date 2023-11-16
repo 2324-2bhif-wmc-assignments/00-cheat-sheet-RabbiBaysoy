@@ -14,16 +14,27 @@
     background-color: whitesmoke;
 }
 
+@keyframes anim {
+    from {background-color: white;}
+    to {background-color: lightcyan;}
+  }
+
 .a {
-    font-size: 30px;
+    font-size: 2rem;
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #f3f2f5;
+    background-color: white;
     text-align: center;
     color: blue;
-    border-radius: 12px;
+    border-radius: 1rem;
+}
+
+.a:hover
+{
+    animation-name: anim;
+    animation-duration: 4s;
 }
 
 #mainCss {
@@ -90,10 +101,11 @@ td, th {
 .navbar {
     list-style-type: none;
     padding-left: 0;
-    margin: 0;
+    margin: -1vw;
     top: 0;
     overflow: hidden;
     background-color: turquoise;
+    margin-bottom: 1vw;
   }
   
 
