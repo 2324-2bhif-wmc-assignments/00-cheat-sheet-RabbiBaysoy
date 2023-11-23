@@ -6,15 +6,15 @@
     <link type="text/css" rel="stylesheet" href="./style.css">
 </head>
 <body id="css">
-    <ul class="navbar">
-        <li><a href="index.html">Home</a></li>
+    <ul id="navbar">
+        <li><a href= "index.html">Home</a></li>
         <li><a href="cheetsheet.html">HTML and Web</a></li>
         <li><a href="css.html">CSS</a></li>
     </ul>
     <article class="cssarticle">
         <h1 id="mainCss">Basics of CSS</h1>
         <hr/>
-        <section>
+        <section id="syntax">
             <h3>CSS Syntax</h3>
             <p>The selector points to the HTML element you want to style.The declaration block contains one or more 
                 declarations separated by semicolons.ach declaration includes a CSS property name and a value,
@@ -22,7 +22,7 @@
                 are surrounded by curly braces.</p>
         </section>
         <hr/>
-        <section>
+        <section id="selectors">
             <h3>CSS Selectors</h3>
             <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
             <p>We can divide CSS selectors into five categories:</p>
@@ -34,7 +34,7 @@
                 <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
             </ul>
         </section>
-        <section>
+        <section id="element and grouping selector">
             <h3>The CSS element Selector</h3>
             <p>The element selector selects HTML elements based on the element name.</p>
 
@@ -42,7 +42,7 @@
             <p>The grouping selector selects all the HTML elements with the same style definitions.</p>
         </section>
         <hr/>
-        <section>
+        <section id="background">
             <h3>CSS Color Names</h3>
             <p>In CSS, a color can be specified by using a predefined color name.</p>
         <hr/>
@@ -64,7 +64,7 @@
             <p>The background-position-y property sets the position of a background image on the y-axis.</p>
         </section>
         <hr/>
-        <section>
+        <section id="textcolor">
             <h3>Text color</h3>
             <p>The color property is used to set the color of the text. The color is specified by:</p>
             <ul>
@@ -89,7 +89,7 @@
             <p>The vertical-align property sets the vertical alignment of an element.</p>
         </section>
         <hr/>
-        <section>
+        <section id="decoration line">
             <h3> Add a Decoration Line to Text</h3>
             <p>The text-decoration-line property is used to add a decoration line to text.</p>
 
@@ -117,7 +117,7 @@
                 word.</p>
         </section>
         <hr/>
-        <section>
+        <section id="font">
             <h3>The CSS font-family Property</h3>
             <p>In CSS, we use the font-family property to specify the font of a text.</p>
 
@@ -153,7 +153,7 @@
             <p>To allow users to resize the text (in the browser menu), many developers use em instead of pixels.</p>
         </section>
         <hr/>
-        <section>
+        <section id="links and states">
             <h3>Styling Links</h3>
             <p>Links can be styled with any CSS property (e.g. color, font-family, background, etc.).In addition,
                 links can be styled differently depending on what state they are in.</p>
@@ -171,20 +171,20 @@
                 <li>a:active MUST come after a:hover</li>
             </ul>
         </section>
-        <section>
+        <section id="classes and ids">
             <h3>Classes and IDs</h3>
             <p>Classes can occur more than once on a page, IDs can only occur once on a page.
             <br><strong>h1.main</strong>: This example selects a h1 element of the class main.
             <br><strong>p#mes</strong>: This example selects a p element with the id mes.</p>
         </section>
-        <section>
+        <section id="boxmodel">
             <h3>Boxmodel</h3>
             <p>Margin is the space between the border and the surrounding elements. Padding is the space between the content of the element and its border.
                 Block Elements use an extra line above and below and they can have margin and padding to keep distance from all surrounding elements.
                 Inline Elements stay in the line with their neighboring elements and only keep distance to the elements on the left and on the right
                 if a positive margin and/or padding is defined. </p>
         </section>
-        <section>
+        <section id="float">
             <h3>Float</h3>
             <p>The float property is used for positioning and formatting content.
                 <br>The float element can have four values:</p>
