@@ -179,43 +179,41 @@ td > p {
 
 @keyframes animimg {
     0% {
-        margin-top: 10rem;
-    }
-    25% {
-        margin-left: 5rem;
+        translate: 50%;
+        transform: rotate(90deg);
     }
     50% {
-        margin-left: 5rem;
-    }
-    75% {
-        margin-top: 5rem;
+        translate: 50% 70%;
+        transform: rotate(180deg);
     }
     100% {
-        margin-top: 5rem;
+        translate: 30% 10%;
+        transform: rotate(360deg);
     }
 }
 
-@keyframes animimgcss {
+@keyframes animimgcss{
     0% {
-        margin-top: 5rem;
-    }
-    25% {
-        margin-top: 40rem;
+        translate: -20%;
+        transform: rotate(60deg);
     }
     50% {
-        margin-left: 20rem;
+        translate: -50% -30%;
+        transform: rotate(120deg);
     }
     75% {
-        margin-left: 24rem;
+        transform: rotate(180deg);
     }
     100% {
-        margin-left: 28rem;
+        translate: -10% -10%;
+        transform: rotate(360deg);
     }
 }
+
 img {
     margin-left: 10rem;
     animation-name: animimg;
-    animation-duration: 10s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -223,7 +221,7 @@ img {
     margin-left: 70rem;
     margin-right: 5rem;
     animation-name: animimgcss;
-    animation-duration: 7s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
