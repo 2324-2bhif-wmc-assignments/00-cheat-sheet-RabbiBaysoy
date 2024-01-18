@@ -151,10 +151,11 @@ td, th {
 #navbar {
     list-style-type: none;
     padding-left: 0;
-    margin: -1vw;
+    margin: -0.5vw;
     top: 0;
     overflow: hidden;
     background-color: rgb(98, 190, 181);
+    position: sticky;
   }
 
 #navbar li {
@@ -179,34 +180,28 @@ td > p {
 
 @keyframes animimg {
     0% {
-        translate: 50%;
-        transform: rotate(90deg);
+        transform: translate(0, 50%) rotate(120deg);
     }
     50% {
-        translate: 50% 70%;
-        transform: rotate(180deg);
+        transform: translate(50%,70%) rotate(240deg);
     }
     100% {
-        translate: 30% 10%;
-        transform: rotate(360deg);
+        transform: translate(30%,10%) rotate(360deg);
     }
 }
 
 @keyframes animimgcss{
     0% {
-        translate: -20%;
-        transform: rotate(60deg);
+        transform: translate(0, -20%) rotate(90deg);
     }
     50% {
-        translate: -50% -30%;
-        transform: rotate(120deg);
+        transform: translate(-50%,-30%) rotate(180deg);
     }
     75% {
-        transform: rotate(180deg);
+        transform: rotate(270deg);
     }
     100% {
-        translate: -10% -10%;
-        transform: rotate(360deg);
+        transform: translate(-10%, -10%) rotate(360deg);
     }
 }
 
@@ -215,7 +210,7 @@ img {
     animation-name: animimg;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: alternate-reverse;
 }
 #imgcss {
     margin-left: 70rem;
@@ -223,7 +218,8 @@ img {
     animation-name: animimgcss;
     animation-duration: 3s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: alternate-reverse;
 }
+
 
 
