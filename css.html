@@ -3,14 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="./style.css">
 </head>
 <body id="css">
-    <ul id="navbar">
-        <li><a href= "index.html">Home</a></li>
-        <li><a href="cheetsheet.html">HTML and Web</a></li>
-        <li><a href="css.html">CSS</a></li>
-    </ul>
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cheetsheet.html">HTML</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="css.html">CSS</a>
+            </li>
+        </ul>
+    </div>
+</nav>
     <article class="cssarticle">
         <h1 id="mainCss">Basics of CSS</h1>
         <hr/>
@@ -196,8 +207,108 @@
                 </ul>
         </section>
         <section>
-            <h3></h3>
+            <h3>Linear Gradient</h3>
+            <p>
+                Set a linear gradient background for the div element, going from the top to bottom, transitioning from "white" to "green".
+                div {
+                background-color: linear-gradient(to bottom, white, green)
+                }
+                Set a linear gradient background for the div element, going at a 70 degree angle, transitioning from "white" to "green".
+                div {
+                background-color: linear-gradeant(70deg, white, green);
+                }
+            </p>
+
+            <h3>Radial Gradiant</h3>
+            <p>
+                Set a radial gradient background for the  element, with a circle shape, transitioning from "white" to "green"
+                div {
+                background-color: radial-gradient(circle, white, green);
+                }
+                Transitions
+                Define the style classes for a transition of the background-color from "yellow" to "aqua" and back when hovering
+                div {
+                background-color: yellow;
+                transition: background-color;
+                }
+
+                div:hover {
+                background-color: aqua;
+                }
+            </p>
+
+            <h3>Animations</h3>
+            <p>
+                Define an animation for moving a div element of a fixed size from top right to center to top left with a natural appearance.
+                @keyframes animdiv {
+                    0% {
+                    translate: 100%, 100%;
+                    }
+                    50% {
+                    translate: 50%, 50%;
+                    }
+                    100% {
+                    translate: -100%; 100%;
+                    }
+                }
+
+                div {
+                animation-name: animdiv;
+                animation-duration: 5s;
+                animation-iteration-count: 1;
+                }
+            </p>
+
+            <h3>Transformations</h3>
+            <p>
+                Define a style for translating for 25% in both directions, rotating it for 35 degree and making it one quater of its size taller
+                div {
+                transform: translate(25%, 25%) rotate(35deg) scaleY(1.25);
+                }
+            </p>
+            <h3>Shadows and Rounded Corners</h3>
+            <p>
+                Define a style that renders an element as ellipse or cirlce and applies an inner glow on the top and left border of a div in an orange color. The style shall also color the border of the element in a dark variant of the glow color.
+                div {
+                border-radius: 50%;
+                box-shadow: 10px 10px 5px orange inset;
+                border: 1px solid darkorange;
+                }
+                Positioning
+                Define a style the keeps an element always at the same position, even when the page is scrolled
+                div {
+                position: fixed;
+                }
+            </p>
+        </section>
+        <section>
+            <h3>Bootstrap Pagination</h3>
+            <p>
+                We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping nav element to identify it as a navigation section to screen readers and other assistive technologies.
+                In addition, as pages likely have more than one such navigation section, it’s advisable to provide a descriptive aria-label for the nav to reflect its purpose. For example, if the pagination component is used to navigate between a set of search results, an appropriate label could be aria-label="Search results pages".
+            </p>
+
+            <h3>Bootstrap Carousel</h3>
+            <p>
+                The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes support for previous/next controls and indicators.
+                In browsers where the Page Visibility API is supported, the carousel will avoid sliding when the webpage is not visible to the user (such as when the browser tab is inactive, the browser window is minimized, etc.).
+                Please be aware that nested carousels are not supported, and carousels are generally not compliant with accessibility standards.
+                Lastly, if you’re building our JavaScript from source, it requires util.js
+                Carousels don’t automatically normalize slide dimensions. As such, you may need to use additional utilities or custom styles to appropriately size content. While carousels support previous/next controls and indicators, they’re not explicitly required. Add and customize as you see fit.
+                Be sure to set a unique id on the .carousel for optional controls, especially if you’re using multiple carousels on a single page.
+            </p>
+
+            <h3>Bootstrap Navbar</h3>
+            <p>
+                Navbars require a wrapping .navbar with .navbar-expand{-sm|-md|-lg|-xl} for responsive collapsing and color scheme classes.
+                Navbars and their contents are fluid by default. Use optional containers to limit their horizontal width.
+                Use our spacing and flex utility classes for controlling spacing and alignment within navbars.
+                Navbars are responsive by default, but you can easily modify them to change that. Responsive behavior depends on our Collapse JavaScript plugin.
+                Navbars are hidden by default when printing. Force them to be printed by adding .d-print to the .navbar. See the display utility class.
+                Ensure accessibility by using a nav element or, if using a more generic element such as a div, add a role="navigation" to every navbar to explicitly identify it as a landmark region for users of assistive technologies.
+            </p>
         </section>
     </article>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

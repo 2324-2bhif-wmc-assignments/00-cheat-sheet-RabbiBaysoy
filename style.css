@@ -148,31 +148,6 @@ td, th {
     border-color: turquoise;
 }
 
-#navbar {
-    list-style-type: none;
-    padding-left: 0;
-    margin: -0.5vw;
-    top: 0;
-    overflow: hidden;
-    background-color: rgb(98, 190, 181);
-    position: sticky;
-  }
-
-#navbar li {
-    float: left;
-}
-  
-li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 2rem;
-  }
-  
-li a:hover {
-    background-color: lightblue;
-}
-
 td > p {
     text-align: center;
     color: turquoise;
@@ -220,6 +195,7 @@ img {
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
+
 
 
 
