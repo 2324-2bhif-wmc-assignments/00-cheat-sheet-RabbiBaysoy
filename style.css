@@ -180,7 +180,7 @@ td > p {
     }
 }
 
-img {
+#htmlimg {
     margin-left: 10rem;
     animation-name: animimg;
     animation-duration: 2s;
@@ -196,6 +196,6 @@ img {
     animation-direction: alternate-reverse;
 }
 
-
-
-
+img {
+    width: 40rem;
+}
