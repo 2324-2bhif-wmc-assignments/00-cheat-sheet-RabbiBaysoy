@@ -27,13 +27,8 @@
     animation-timing-function: linear;
 }
 
-#cheatsheet {
-    background: linear-gradient(to right, white, lightblue);
-}
-
-
-#css {
-    background: linear-gradient(to right, white, lightblue);
+#css, #cheatsheet {
+    background: white;
 }
 
 @keyframes anim {
