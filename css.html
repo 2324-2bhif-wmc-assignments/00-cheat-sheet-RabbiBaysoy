@@ -22,6 +22,19 @@
         </ul>
     </div>
 </nav>
+<div class="navinpage">
+    <a href="#syntax">CSS Syntax</a>
+    <a href="#selectors">CSS Selectors</a>
+    <a href="#background">CSS Background Property and colors</a>
+    <a href="#text">CSS Text</a>
+    <a href="#decorationline">CSS Decoration-line</a>
+    <a href="#font">CSS Font</a>
+    <a href="#linksandstates">CSS Links and states</a>
+    <a href="#classesandidsboxmodel">CSS Classes, IDS and boxmodel</a>
+    <a href="#css mastership">CSS Mastership</a>
+    <a href="#bootstrap">Bootstrap</a>
+    <a href="#flexbox">CSS Flex</a>
+</div>
     <article class="cssarticle">
         <h1 id="mainCss">Basics of CSS and Bootstrap</h1>
         <hr/>
@@ -44,8 +57,6 @@
                 <li>Pseudo-elements selectors (select and style a part of an element)</li>
                 <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
             </ul>
-        </section>
-        <section id="elementandgroupingselector">
             <h3>The CSS element Selector</h3>
             <p>The element selector selects HTML elements based on the element name.</p>
 
@@ -75,7 +86,7 @@
             <p>The background-position-y property sets the position of a background image on the y-axis.</p>
         </section>
         <hr/>
-        <section id="textcolor">
+        <section id="text">
             <h3>Text color</h3>
             <p>The color property is used to set the color of the text. The color is specified by:</p>
             <ul>
@@ -182,20 +193,16 @@
                 <li>a:active MUST come after a:hover</li>
             </ul>
         </section>
-        <section id="classesandids">
+        <section id="classesandidsboxmodel">
             <h3>Classes and IDs</h3>
             <p>Classes can occur more than once on a page, IDs can only occur once on a page.
             <br><strong>h1.main</strong>: This example selects a h1 element of the class main.
             <br><strong>p#mes</strong>: This example selects a p element with the id mes.</p>
-        </section>
-        <section id="boxmodel">
             <h3>Boxmodel</h3>
             <p>Margin is the space between the border and the surrounding elements. Padding is the space between the content of the element and its border.
                 Block Elements use an extra line above and below and they can have margin and padding to keep distance from all surrounding elements.
                 Inline Elements stay in the line with their neighboring elements and only keep distance to the elements on the left and on the right
                 if a positive margin and/or padding is defined. </p>
-        </section>
-        <section id="float">
             <h3>Float</h3>
             <p>The float property is used for positioning and formatting content.
                 <br>The float element can have four values:</p>
@@ -206,7 +213,7 @@
                     <li>inherit</li>
                 </ul>
         </section>
-        <section>
+        <section id="css mastership">
             <h3>Linear Gradient</h3>
             <p>
                 Set a linear gradient background for the div element, going from the top to bottom, transitioning from "white" to "green".
@@ -281,7 +288,7 @@
                 }
             </p>
         </section>
-        <section>
+        <section id="bootstrap">
             <h3>Bootstrap Pagination</h3>
             <p>
                 We use a large block of connected links for our pagination, making links hard to miss and easily scalable—all while providing large hit areas. Pagination is built with list HTML elements so screen readers can announce the number of available links. Use a wrapping nav element to identify it as a navigation section to screen readers and other assistive technologies.
@@ -308,7 +315,7 @@
                 Ensure accessibility by using a nav element or, if using a more generic element such as a div, add a role="navigation" to every navbar to explicitly identify it as a landmark region for users of assistive technologies.
             </p>
         </section>
-        <section>
+        <section id="flex">
             <h3>Flexbox</h3>
             <img id="flexbox" src="css-flexbox-poster.png" alt="flexbox">
         </section>

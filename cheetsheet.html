@@ -22,12 +22,19 @@
         </ul>
     </div>
 </nav>
+<div class="navinpage">
+    <a href="#www">WWW</a>
+    <a href="#ws">Web Server</a>
+    <a href="#wc">Web Client</a>
+    <a href="#hello-world">Hello World</a>
+    <a href="#attributes">HTML Elements and their attributes</a>
+    <a href="#permitted content">Permitted content of elements</a>
+    <a href="#lists">HTML Lists</a>
+</div>
     <div class="htmldiv">
         <h1 id="mainHtml">Basics of HTML and Web</h1>
-        <hr/>
-        <article>
+        <article id="www">
             <h3 class="a">World Wide Web</h3>
-            <hr>
             <section>
                 <h3>1. What are the most essential technologies that made the World Wide Web such a success?</h3>
                 <p> URL, HTTP and HTML are the most essential technologies that made the World Wide Web successful.</p>
@@ -41,55 +48,52 @@
                 <p>path: The path indicates the specific location in the server's directory.</p>
             </section>
         </article>
-        <hr>
-        <article>
+        <article id="ws">
             <h3 class = "a">Web Server</h3>
-            <hr/>
             <section>
                 <h3>1. What is a web server?</h3>
                 <p>A web server is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other protocols
-                    to respond to client requests made over the World Wide Web. The main job of a web server is to 
-                    display website content through storing, processing and delivering webpages to users. Besides HTTP, 
-                    web servers also support SMTP (Simple Mail Transfer Protocol) and FTP (File Transfer Protocol), used 
+                    to respond to client requests made over the World Wide Web. The main job of a web server is to
+                    display website content through storing, processing and delivering webpages to users. Besides HTTP,
+                    web servers also support SMTP (Simple Mail Transfer Protocol) and FTP (File Transfer Protocol), used
                     for email, file transfer and storage.</p>
 
                 <h3>2. What does a web server?</h3>
                 <p>A Web server processes and manages HTTP/HTTPS requests and responses from the client system.</p>
                 <h3>3. How can content be stored on a web server?</h3>
-                <p>The simplest and most common way to store content on a web server is by saving files directly 
+                <p>The simplest and most common way to store content on a web server is by saving files directly
                     to the server's file system. These files can include HTML documents, images, videos, JavaScript files,
                     CSS stylesheets, and more.</p>
 
                 <h3>4. How is content in webpages described?</h3>
-                <p>Content in webpages is usually described with a combination of HTML (Hypertext Markup Language) and 
+                <p>Content in webpages is usually described with a combination of HTML (Hypertext Markup Language) and
                     metadata.</p>
             </section>
         </article>
-        <hr/>
-        <article>
-            <h3 class = "a">Web Client</h3>
-            <hr>
-            <section>
-                <h3>1. What is a web client?</h3>
-                <p>A web client is an application that communicates with a web server, using Hypertext Transfer Protocol
-                    (HTTP). </p>
+        <section id="wc">
+            <article>
+                <h3 class = "a">Web Client</h3>
+                <section>
+                    <h3>1. What is a web client?</h3>
+                    <p>A web client is an application that communicates with a web server, using Hypertext Transfer Protocol
+                        (HTTP). </p>
 
-                <h3>2. What does a web client?</h3>
-                <p> A web client requests web resources, renders and displays web content, enables user to interact with web
-                    applications and websites, handles cookies and sessions, supports various protocols and displays
-                    errors and status messages.</p>
+                    <h3>2. What does a web client?</h3>
+                    <p> A web client requests web resources, renders and displays web content, enables user to interact with web
+                        applications and websites, handles cookies and sessions, supports various protocols and displays
+                        errors and status messages.</p>
 
-                <h3>3. Web Client and Web Browser is the same</h3>
-                <p>That is not correct. All web browsers are web clients, but not all web clients are web browsers. Web 
-                    clients encompass a broader category of software that can interact with web resources in various ways,
-                    whereas web browsers are web clients specifically designed for rendering and displaying web content
-                    in a user-friendly manner.</p>
-            </section>
-        </article>
+                    <h3>3. Web Client and Web Browser is the same</h3>
+                    <p>That is not correct. All web browsers are web clients, but not all web clients are web browsers. Web
+                        clients encompass a broader category of software that can interact with web resources in various ways,
+                        whereas web browsers are web clients specifically designed for rendering and displaying web content
+                        in a user-friendly manner.</p>
+                </section>
+            </article>
+        </section>
         <hr/>
-        <article>
+        <article id="hello-world">
             <h3 class = "a">Hello World</h3>
-            <hr/>
             <section>
                 <h3>1. What is the html head element?</h3>
                 <p>The head element is a container for metadata and is placed between the html tag and the body tag.</p>
@@ -108,9 +112,8 @@
             </section>
         </article>
         <hr/>
-        <article>
+        <article id="attributes">
             <h3 class = "a">HTML</h3>
-            <hr/>
             <section>
                 <h3>The br element</h3>
                 <p>The br tag defines line break, and is a void element without a closing tag.</p>
@@ -167,10 +170,8 @@
                 <h3>Images on Another Server/Website</h3>
                 <p>Some websites point to an image on another server.</p>
             </section>
-            <section>
-                <hr/>
+            <section id="permitted content">
                 <h3 class="a">Permitted content</h3>
-                <hr/>
                 <h3>Permitted content ul</h3>
                 <p>Zero or more li, script and template elements.</p>
 
@@ -178,7 +179,7 @@
                 <p>Zero or more li, script and template elements.</p>
 
                 <h3>Permitted content dl</h3>
-                <p>Either: Zero or more groups each consisting of one or more dt elements followed by one or more dd elements, 
+                <p>Either: Zero or more groups each consisting of one or more dt elements followed by one or more dd elements,
                     optionally intermixed with script and template elements.
                     <br>Or: (in WHATWG HTML, W3C HTML 5.2 and later) One or more div elements, optionally intermixed with script and template elements.</p>
                 <h3>Permitted content table</h3>
@@ -194,7 +195,7 @@
                     <li>an optional tfoot element</li>
                 </ol>
             </section>
-            <section>
+            <section id="lists">
                 <h3>Different kinds of lists</h3>
                 <table>
                     <thead>

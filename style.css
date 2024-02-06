@@ -71,6 +71,7 @@
 }
 
 #mainCss:hover, .cssarticle h3:hover {
+    transition: text-shadow 2s;
     text-shadow: 4px 4px 10px seagreen;
 }
 .cssarticle h3{
@@ -101,7 +102,7 @@
 
 #mainHtml:hover {
     animation-name: h1anim;
-    animation-duration: 4s; 
+    animation-duration: 4s;
 }
 .htmldiv h3{
     color: blue;
@@ -194,3 +195,18 @@ td > p {
 #flexbox {
     width: 40rem;
 }
+
+.navinpage a {
+    margin: 0.5rem;
+    text-decoration-line: none;
+    color: black;
+    font-size: 1rem;
+    box-shadow: none;
+}
+
+.navinpage a:hover {
+    transition: box-shadow 2s;
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+
