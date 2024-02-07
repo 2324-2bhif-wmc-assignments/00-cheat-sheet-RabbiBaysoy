@@ -31,98 +31,20 @@
     background: white;
 }
 
-@keyframes anim {
-    from {background-color: white;}
-    to {background-color: lightcyan;}
-  }
-
-@keyframes h1anim
-{
-    from {color: darkblue;}
-    to {color: blue;}
-}
-
-.a {
-    font-size: 2rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    background-color: white;
-    text-align: center;
-    color: blue;
-    border-radius: 1rem;
-}
-
-.a:hover
-{
-    animation-name: anim;
-    animation-duration: 4s;
-}
-
-#mainCss {
-    font-family: Helvetica Now, Calibri, serif;
-    color: turquoise;
-    text-decoration-line: underline;
-    font-style: italic;
-    text-align: center;
-    margin-top: 2.5rem;
-    font-size: 4rem;
-}
-
-#mainCss:hover, .cssarticle h3:hover {
-    transition: text-shadow 2s;
-    text-shadow: 4px 4px 10px seagreen;
-}
-.cssarticle h3{
+h3 {
     color: lightseagreen;
-    font-family: Helvetica, Calibri, serif;
-    font-size: 1.4rem;
+    font-size: 1.4em;
 }
 
-.cssarticle p {
-    font-family: Arial, Calibri, serif;
-    color: turquoise;
-}
-
-.cssarticle li{
-    font-family: Candara, Calibri, serif;
-    color: turquoise;
-}
-
-#mainHtml {
-    font-family: Helvetica, Calibri, serif;
-    color: darkblue;
-    text-decoration-line: underline;
-    font-style: oblique;
-    text-align: center;
-    margin-top: 2.5rem;
-    font-size: 3rem;
-}
-
-#mainHtml:hover {
-    animation-name: h1anim;
-    animation-duration: 4s;
-}
-.htmldiv h3{
-    color: blue;
-    font-family: Arial, Helvetica, serif;
-}
-
-section p{
-    font-family: Arial, Helvetica, serif;
-    color: darkslateblue;
-}
-
-.htmldiv li{
-    font-family: Candara, Calibri, serif;
-    color: darkturquoise;
+p {
+    color: black;
+    font-size: 1.2em;
 }
 
 table, th, td {
     border:1px solid turquoise;
     border-collapse: collapse;
-    padding: 2rem;
+    padding: 2em;
 }
 
 thead {
@@ -130,7 +52,7 @@ thead {
 }
 
 tbody {
-   height: 70px;
+   height: 3rem;
 }
 
 dt, dd {
@@ -149,64 +71,100 @@ td > p {
     color: turquoise;
 }
 
-@keyframes animimg {
-    0% {
-        transform: translate(0, 50%) rotate(120deg);
-    }
-    50% {
-        transform: translate(50%,70%) rotate(240deg);
-    }
-    100% {
-        transform: translate(30%,10%) rotate(360deg);
-    }
-}
-
-@keyframes animimgcss{
-    0% {
-        transform: translate(0, -20%) rotate(90deg);
-    }
-    50% {
-        transform: translate(-50%,-30%) rotate(180deg);
-    }
-    75% {
-        transform: rotate(270deg);
-    }
-    100% {
-        transform: translate(-10%, -10%) rotate(360deg);
-    }
-}
-
-#htmlimg {
-    margin-left: 10rem;
-    animation-name: animimg;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-}
-#imgcss {
-    margin-left: 70rem;
-    margin-right: 5rem;
-    animation-name: animimgcss;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-}
-
 #flexbox {
     width: 40rem;
 }
 
+.navinpage {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
 .navinpage a {
-    margin: 0.5rem;
+    padding: 1rem;
     text-decoration-line: none;
     color: black;
-    font-size: 1rem;
+    font-size: 1.2em;
     box-shadow: none;
 }
 
 .navinpage a:hover {
     transition: box-shadow 2s;
-    box-shadow: black 2px 2px 2px 2px;
+    box-shadow: black 5px 5px 5px 5px;
+    border-radius: 1rem;
 }
 
+#navbarbt li:hover {
+    transition: box-shadow 2s;
+    box-shadow: black 3px 3px 3px 3px;
+}
 
+span {
+    font-family: Consolas, Calibri, serif;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+article {
+    margin: 1rem;
+}
+
+.container {
+    margin-top: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container div {
+    margin: 1rem;
+    padding: 10rem;
+    border: 1px solid black;
+    background: linear-gradient(blue 0%, turquoise 100%);
+    transition: box-shadow 3s;
+    border-radius: 1rem;
+}
+
+.container a {
+    text-decoration-line: none;
+    font-size: 2rem;
+    color: black;
+    font-family: Consolas, Helvetica, sans-serif;
+}
+
+.container div:hover {
+    box-shadow: white 10px 10px 10px 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 0.5rem;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    font-size: 2em;
+    text-align: center;
+}
+
+#startp {
+    color: turquoise;
+}
+
+#startpage h1 {
+    margin-left: 22rem;
+    font-size: 4em;
+}
+
+#startpage p {
+    font-size: 2em;
+}
+
+#startpage div:nth-child(2) {
+    margin-left: 30rem;
+}
