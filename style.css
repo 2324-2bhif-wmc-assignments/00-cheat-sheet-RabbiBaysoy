@@ -33,18 +33,18 @@
 
 h3 {
     color: lightseagreen;
-    font-size: 1.4em;
+    font-size: 0.7em;
 }
 
 p {
     color: black;
-    font-size: 1.2em;
+    font-size: 0.6em;
 }
 
 table, th, td {
     border:1px solid turquoise;
     border-collapse: collapse;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 thead {
@@ -52,7 +52,7 @@ thead {
 }
 
 tbody {
-   height: 3rem;
+    height: 3rem;
 }
 
 dt, dd {
@@ -72,19 +72,19 @@ td > p {
 }
 
 #flexbox {
-    width: 40rem;
+    width: 20rem;
 }
 
 .navinpage {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 .navinpage a {
-    padding: 1rem;
+    padding: 0.5rem;
     text-decoration-line: none;
     color: black;
-    font-size: 1.2em;
+    font-size: 0.6em;
     box-shadow: none;
 }
 
@@ -112,7 +112,7 @@ article {
 }
 
 .container {
-    margin-top: 17rem;
+    margin-top: 4.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,7 +120,7 @@ article {
 
 .container div {
     margin: 1rem;
-    padding: 10rem;
+    padding: 2.5rem;
     border: 1px solid black;
     background: linear-gradient(blue 0%, turquoise 100%);
     transition: box-shadow 3s;
@@ -129,7 +129,7 @@ article {
 
 .container a {
     text-decoration-line: none;
-    font-size: 2rem;
+    font-size: 1em;
     color: black;
     font-family: Consolas, Helvetica, sans-serif;
 }
@@ -157,8 +157,8 @@ article {
 }
 
 #startpage h1 {
-    margin-left: 22rem;
-    font-size: 4em;
+    margin-left: 11rem;
+    font-size: 2em;
 }
 
 #startpage p {
@@ -166,5 +166,5 @@ article {
 }
 
 #startpage div:nth-child(2) {
-    margin-left: 30rem;
+    margin-left: 15rem;
 }
