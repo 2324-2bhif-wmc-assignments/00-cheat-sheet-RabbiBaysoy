@@ -158,7 +158,6 @@ article {
 }
 
 #startpage h1 {
-    margin-left: 22rem;
     font-size: 4em;
 }
 
@@ -167,5 +166,9 @@ article {
 }
 
 #startpage div:nth-child(2) {
-    margin-left: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
